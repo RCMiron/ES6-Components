@@ -9,6 +9,10 @@ class AppComponent {
 
         document.getElementById("app-container")
                 .appendChild(new VanillaComponent(data).template);
+
+        setTimeout(() => {
+            data.label = 'Changed'
+        }, 3000);
     }
 }
 

@@ -9,7 +9,6 @@ export class VanillaComponent extends Component {
                     <span data-text="label"></span>
                 </div>
         `;
-
         super(template, boundProps);
     }
 }
