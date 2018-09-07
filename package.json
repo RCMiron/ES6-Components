@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-components",
+  "version": "0.0.0",
+  "description": "\"Vanilla JS data-bound components(no WEB components)\"",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCMiron/ES6-Components.git"
+  },
+  "author": "RCMiron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RCMiron/ES6-Components/issues"
+  },
+  "homepage": "https://github.com/RCMiron/ES6-Components#readme"
+}
