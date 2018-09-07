@@ -23,11 +23,7 @@ export class DataBinding {
     }
 
     addBinding(element, boundAttribute) {
-        const binding = {
-            element: element,
-            attribute: boundAttribute
-        };
-        this.elementBindings.push(binding);
+        this.elementBindings.push({element: element, attribute: boundAttribute});
         element[boundAttribute] = this.value;
     }
 }
